@@ -1,0 +1,23 @@
+---
+title: "table1"
+author: "Li Zhiwei"
+format: 
+  revealjs:
+    theme: ["theme/q-theme.scss"]
+    slide-number: c/t
+    incremental: true
+    highlight-style: a11y
+    width: 1920
+    height: 1080
+    execute-dir: project
+editor: visual
+execute: 
+  echo: true
+---
+
+## Creat table 1 using `tableone` package
+
+```{r}
+library(tableone) # main package
+dat = read.csv('examples/data/table1_data.csv')
+```
